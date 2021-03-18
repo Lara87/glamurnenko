@@ -1,1 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    font-family: 'Oranienbaum', serif;
+    width: 100%;
+    background-color: #000 !important;
+    min-width: 320px;
+}
+
+header{
+    background-image: url(../img/bg-main.png);
+    height: 660px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.menu{
+    font-family: 'Oranienbaum', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+
+.navbar{
+    margin: 0px 31px 0 124px;   
+}
+
+.menu li{
+    padding: 0 7px 0 7px;
+    list-style-type: none;
+}
+
+.icon{
+    padding-top: 40px;
+    margin: 0 0px 0 100px;
+}
+
+.icon li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.phone li{
+    list-style-type: none;
+}
+
+.inst{
+    background-image: url(../img/1438557260_inst_4.png);
+    width: 25px;
+    height: 25px;
+    background-position: 0 0;
+}
+
+.fb{
+    background-image: url(../img/1438557245_ab_4.png);
+    width: 25px;
+    height: 25px;
+    background-position: 0 0;
+}
+
+.vk{
+    background-image: url(../img/1438423986_vk_3.png);
+    width: 25px;
+    height: 25px;
+    background-position: 0 0;
+}
+
+.phone{
+    padding: 27px 0 0 0;
+}
+.phone a{
+    font-size: 14px;
+}
+
+.logo-main {
+    margin: 0 110px 0 125px;
+    padding: 210px 0 0 0;
+}
+
+.mission {
+    margin: 14px 0 0 0;
+}
+
+.mission p {
+    color: #FFF;
+    font: 24px Oranienbaum, serif;
+    margin: 0px;
+    padding-top: 1.2em;
+    text-transform: uppercase;
+}
+
+.mission a {
+    font: 16px Oranienbaum, serif;
+    color: #cdb380;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.ppp{
+    display: block;
+    text-align: left;
+}
+
+.main{
+    background-color: #fff;
+    width: 1138px;
+    margin-right: 0;
+    margin-left: 143px;
+}
+
+
+
+  .wrap {
+    position: relative;
+    margin: 0;
+  }
+  
+  .box {
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    height: 180px;
+    width: 180px;
+    border: none;
+    overflow: hidden;
+  }
+  
+  .ribbon {
+    color: #fff;
+    left: -66px;
+    position: absolute;
+    top: 53px;
+    height: 37px;
+    width: 270px;
+    transform: rotate(-40deg);
+    background-color: #ff0c3a;
+    text-align: center;
+    font-size: 22px;
+}
+  
+  .col-2{
+    padding: 0 0 0 0;
+}
+
+  .title-main{
+    margin: 59px 0 0 129px;
+    font-size: 20px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.text-main{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Arial, sans-serif, 'Poppins Bold';
+    font-weight: bold;
+    margin: 12px 120px;
+    line-height: 2;
+}
+
+.text-main p{
+    text-align: center;
+}
+
+table {
+    background-color: #fff000 !important;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.order{
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background: #000;
+    padding: 15px 15px 15px 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+.order:hover{
+    background: rgb(53, 167, 110);
+    border: none;
+    cursor: pointer;
+}
+
+.order:active{
+    background: rgb(33,147,90);
+    border: none;
+}
+
+.caption, .price{
+    text-transform: uppercase;
+    background: #ffd100;
+}
+
+th, td{
+    border: 2px solid #fdc700 !important; /* Параметры рамки */
+}
+
+.money{
+    background: #fff000;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin: auto 5px;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+}
+
+.money:hover{
+    background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+    cursor: pointer;
+}
+
+.money:active{
+    background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
+
+.main-img{
+    width: 100%;
+}
+
+.p-2{
+    padding: 0;
+    margin: 0;
+}
+
+.main-img span{
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.carts{
+    font-family: "Roboto", sans-serif;
+    padding-top: 55px;
+    margin-bottom: 100px;
+}
+
+.carts h1{
+    font-family: "Oranienbaum", sans-serif;
+    text-align: center;
+    padding-top: 43px;
+    font-size: 27px;
+    font-weight: 700;
+    padding: 50px 0 5px 0;
+
+}
+
+.cart-item{
+    border: 3px solid #e8e8e8;
+    margin: 5px 37px;
+}
+
+.cart-item:hover{
+    box-shadow: 0 0 5px 2px #979596;
+    cursor: pointer;
+}
+
+.package{
+    font-family: "Roboto", sans-serif;
+    padding: 29px 0 0 0;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.name-package{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.package-item{
+    font-size: 18px;
+    padding: 0 0 0px 14px;
+    margin: 0;
+}
+
+.time-package, .package-count{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px 0 8px 16px;
+    margin: 0;
+}
+
+.old-price, .old-price-2{
+    margin: 0px 0 33px 0;
+    padding: 0;
+    height: 0;
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+    color: #979596;
+}
+
+.old-price-2{
+    margin: 26px 0 33px 0;
+}
+
+.old-price:before, .old-price-2::before {
+    border-bottom: 2px solid red;
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 18px;
+    transform: rotate(-9deg);
+  }
+
+.new-price{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.buy{
+    text-align: center;
+    justify-content: center;
+    background: #ff0c3a;
+    color: #fff;
+    padding: 0px;
+    margin: 2px 0px 35px 15px;
+    width: 240px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.buy:hover{
+    cursor: pointer;
+    background:#f41870;
+}
+
+.buy:active{
+    background: #ffbbbc;
+}
+
+.happens h1{
+    text-align: left;
+    font-size: 40px;
+    padding: 10px 0 0 233px;
+}
+
+
+.happens-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    padding: 5px 0 0 247px;
+    line-height: 38px;
+}
+
+.happens-text .article {
+    padding: 0 0 0 65px;
+    line-height: 27px;
+}
+
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.book img{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.process h1{
+    text-align: left;
+    font-size: 40px;
+    padding: 0px 0 33px 232px;
+}
+
+.p-2{
+    margin: 12px 15px 0 232px;
+}
+
+.photo-cus{
+width: 200px;
+}
+
+.pic{
+    text-align: center;
+    padding: 0px 0px 0 125px;
+}
+
+.description{
+    font-family: 'Roboto';
+    font-size: 28px;
+    line-height: 25px;
+    padding: 114px 0 0 0;
+}
+
+.process-item{
+    margin-bottom: 23px;
+}
+
+.process{
+    
+    padding-bottom: 50px;
+
+}
+
+.up{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+    background: #000;
+    border: 1px solid #fff;
+    margin: 0px 0 0 0;
+    padding: 11px 14px 11px 14px;
+    text-align: center;
+    margin-left: 72px;
+}
+
+.up:hover{
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+i.bi.bi-chevron-up::before{
+    font-size: 14px;
+}
+
+.footer{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: #fff;
+    line-height: 22px;
+    margin: 40px 140px 40px 140px;
+}
+
+.footer a{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
