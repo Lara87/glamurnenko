@@ -13,21 +13,23 @@ body{
 
 header{
     background-image: url(../img/bg-main.png);
-    height: 660px;
-    background-position: center top;
+     background-position: center top;
     background-repeat: no-repeat;
     position: relative;
+    width: 100%;
+    height: 660px;
+    
+}
+
+.head{
+    background-color: #000;
+    margin: 25px 0px 0px 50px;
 }
 
 .menu{
     font-family: 'Oranienbaum', serif;
     font-size: 18px;
     text-transform: uppercase;
-    padding-top: 40px;
-}
-
-.navbar{
-    margin: 0px 31px 0 124px;   
 }
 
 .menu li{
@@ -36,11 +38,10 @@ header{
 }
 
 .icon{
-    padding-top: 40px;
     margin: 0 0px 0 100px;
 }
 
-.icon li{
+.icon ul li{
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -71,11 +72,8 @@ header{
     background-position: 0 0;
 }
 
-.phone{
-    padding: 27px 0 0 0;
-}
 .phone a{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .logo-main {
@@ -114,14 +112,12 @@ header{
     margin-left: 143px;
 }
 
-
-
-  .wrap {
+.wrap {
     position: relative;
     margin: 0;
-  }
+}
   
-  .box {
+.box {
     left: 0px;
     position: absolute;
     top: 0px;
@@ -129,9 +125,9 @@ header{
     width: 180px;
     border: none;
     overflow: hidden;
-  }
+}
   
-  .ribbon {
+.ribbon {
     color: #fff;
     left: -66px;
     position: absolute;
@@ -144,13 +140,15 @@ header{
     font-size: 22px;
 }
   
-  .col-2{
+.col-2{
     padding: 0 0 0 0;
 }
 
-  .title-main{
-    margin: 59px 0 0 129px;
+.title-main{
+    margin: 59px 0 0 0;
     font-size: 20px;
+    width: 100%;
+    text-align: center;
 }
 
 h1{
@@ -170,7 +168,7 @@ h1{
     text-align: center;
 }
 
-table {
+table{
     background-color: #fff000 !important;
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -259,7 +257,6 @@ th, td{
     font-size: 27px;
     font-weight: 700;
     padding: 50px 0 5px 0;
-
 }
 
 .cart-item{
@@ -280,7 +277,6 @@ th, td{
     text-align: center;
     font-weight: 700;
 }
-
 
 .name-package{
     font-size: 28px;
@@ -359,7 +355,6 @@ th, td{
     font-size: 40px;
     padding: 10px 0 0 233px;
 }
-
 
 .happens-text{
     font-family: "Roboto", sans-serif;
@@ -452,7 +447,7 @@ i.bi.bi-chevron-up::before{
     font-size: 12px;
     color: #fff;
     line-height: 22px;
-    margin: 40px 140px 40px 140px;
+    margin: 60px 20px 40px 20px;
 }
 
 .footer a{
