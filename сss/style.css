@@ -4,80 +4,80 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Oranienbaum', serif;
+body {
+    font-family: "Oranienbaum", serif;
     width: 100%;
     background-color: #000 !important;
     min-width: 320px;
 }
 
-header{
+header {
     background-image: url(../img/bg-main.png);
-     background-position: center top;
+    background-position: center top;
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
     height: 660px;
-    
 }
 
-.head{
+.head {
     background-color: #000;
-    margin: 25px 0px 0px 50px;
+    margin: 41px 0px 0px 102px;
 }
 
-.menu{
-    font-family: 'Oranienbaum', serif;
+.menu {
+    font-family: "Oranienbaum", serif;
     font-size: 18px;
     text-transform: uppercase;
+    margin: 5px 0 0 0;
 }
 
-.menu li{
+.menu li {
     padding: 0 7px 0 7px;
     list-style-type: none;
 }
 
-.icon{
-    margin: 0 0px 0 100px;
+.icon {
+    margin: 15px 100px 0px 100px;
 }
 
-.icon ul li{
+.icon ul li {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-.phone li{
+.phone li {
     list-style-type: none;
 }
 
-.inst{
+.inst {
     background-image: url(../img/1438557260_inst_4.png);
     width: 25px;
     height: 25px;
     background-position: 0 0;
 }
 
-.fb{
+.fb {
     background-image: url(../img/1438557245_ab_4.png);
     width: 25px;
     height: 25px;
     background-position: 0 0;
 }
 
-.vk{
+.vk {
     background-image: url(../img/1438423986_vk_3.png);
     width: 25px;
     height: 25px;
     background-position: 0 0;
 }
 
-.phone a{
+.phone a {
     font-size: 12px;
 }
 
 .logo-main {
-    margin: 0 110px 0 125px;
+    margin: 0 0 0 19px;
     padding: 210px 0 0 0;
 }
 
@@ -86,7 +86,7 @@ header{
 }
 
 .mission p {
-    color: #FFF;
+    color: #fff;
     font: 24px Oranienbaum, serif;
     margin: 0px;
     padding-top: 1.2em;
@@ -100,23 +100,21 @@ header{
     text-transform: uppercase;
 }
 
-.ppp{
+.ppp {
     display: block;
     text-align: left;
 }
 
-.main{
+.main {
     background-color: #fff;
-    width: 1138px;
-    margin-right: 0;
-    margin-left: 143px;
+    width: 100%;
 }
 
 .wrap {
     position: relative;
     margin: 0;
 }
-  
+
 .box {
     left: 0px;
     position: absolute;
@@ -126,12 +124,12 @@ header{
     border: none;
     overflow: hidden;
 }
-  
+
 .ribbon {
     color: #fff;
-    left: -66px;
+    left: -69px;
     position: absolute;
-    top: 53px;
+    top: 54px;
     height: 37px;
     width: 270px;
     transform: rotate(-40deg);
@@ -139,36 +137,36 @@ header{
     text-align: center;
     font-size: 22px;
 }
-  
-.col-2{
+
+.col-2 {
     padding: 0 0 0 0;
 }
 
-.title-main{
-    margin: 59px 0 0 0;
+.title-main {
+    margin: 30px 0 0 0;
     font-size: 20px;
     width: 100%;
     text-align: center;
 }
 
-h1{
+h1 {
     text-transform: uppercase;
 }
 
-.text-main{
+.text-main {
     text-transform: uppercase;
     font-size: 16px;
-    font-family: Arial, sans-serif, 'Poppins Bold';
+    font-family: Arial, sans-serif, "Poppins Bold";
     font-weight: bold;
-    margin: 12px 120px;
+    margin: 12px 0px;
     line-height: 2;
 }
 
-.text-main p{
+.text-main p {
     text-align: center;
 }
 
-table{
+table {
     background-color: #fff000 !important;
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -177,7 +175,7 @@ table{
     font-size: 18px;
 }
 
-.order{
+.order {
     font-family: "Arial", sans-serif;
     font-weight: bold;
     color: #fff;
@@ -188,27 +186,29 @@ table{
     border-radius: 3px;
 }
 
-.order:hover{
+.order:hover {
     background: rgb(53, 167, 110);
     border: none;
     cursor: pointer;
 }
 
-.order:active{
-    background: rgb(33,147,90);
+.order:active {
+    background: rgb(33, 147, 90);
     border: none;
 }
 
-.caption, .price{
+.caption,
+.price {
     text-transform: uppercase;
     background: #ffd100;
 }
 
-th, td{
-    border: 2px solid #fdc700 !important; /* Параметры рамки */
+th,
+td {
+    border: 2px solid #fdc700 !important;
 }
 
-.money{
+.money {
     background: #fff000;
     width: 25px;
     height: 25px;
@@ -218,39 +218,34 @@ th, td{
     font-weight: bold;
 }
 
-.money:hover{
+.money:hover {
     background: linear-gradient(#f5ae00, #f59500) #f5ae00;
     cursor: pointer;
 }
 
-.money:active{
+.money:active {
     background: linear-gradient(#f59500, #f5ae00) #f59500;
 }
 
-.main-img{
-    width: 100%;
-}
-
-.p-2{
+.p-2 {
     padding: 0;
     margin: 0;
 }
 
-.main-img span{
+.main-img span {
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 14px;
     text-align: center;
 }
 
-
-.carts{
+.carts {
     font-family: "Roboto", sans-serif;
     padding-top: 55px;
     margin-bottom: 100px;
 }
 
-.carts h1{
+.carts h1 {
     font-family: "Oranienbaum", sans-serif;
     text-align: center;
     padding-top: 43px;
@@ -259,75 +254,71 @@ th, td{
     padding: 50px 0 5px 0;
 }
 
-.cart-item{
+.cart-item {
     border: 3px solid #e8e8e8;
-    margin: 5px 37px;
+    margin: 5px 10px;
+    text-align: center;
 }
 
-.cart-item:hover{
+.cart-item:hover {
     box-shadow: 0 0 5px 2px #979596;
     cursor: pointer;
 }
 
-.package{
+.package {
     font-family: "Roboto", sans-serif;
     padding: 29px 0 0 0;
     font-size: 18px;
     margin: 0;
-    text-align: center;
+
     font-weight: 700;
 }
 
-.name-package{
+.name-package {
     font-size: 28px;
-    text-align: center;
+
     font-weight: 700;
 }
 
-.package-item{
+.package-item {
     font-size: 18px;
     padding: 0 0 0px 14px;
     margin: 0;
 }
 
-.time-package, .package-count{
+.time-package,
+.package-count {
     font-size: 18px;
     font-weight: 700;
     padding: 0px 0 8px 16px;
     margin: 0;
 }
 
-.old-price, .old-price-2{
+.old-price {
     margin: 0px 0 33px 0;
     padding: 0;
     height: 0;
     position: relative;
-    text-align: center;
+
     font-size: 22px;
     color: #979596;
 }
 
-.old-price-2{
-    margin: 26px 0 33px 0;
-}
-
-.old-price:before, .old-price-2::before {
+.old-price:before {
     border-bottom: 2px solid red;
     position: absolute;
     content: "";
     width: 70px;
     height: 18px;
     transform: rotate(-9deg);
-  }
+}
 
-.new-price{
-    text-align: center;
+.new-price {
     font-size: 26px;
     font-weight: 700;
 }
 
-.buy{
-    text-align: center;
+.buy {
     justify-content: center;
     background: #ff0c3a;
     color: #fff;
@@ -341,25 +332,25 @@ th, td{
     text-transform: uppercase;
 }
 
-.buy:hover{
+.buy:hover {
     cursor: pointer;
-    background:#f41870;
+    background: #f41870;
 }
 
-.buy:active{
+.buy:active {
     background: #ffbbbc;
 }
 
-.happens h1{
+.happens h1 {
     text-align: left;
     font-size: 40px;
-    padding: 10px 0 0 233px;
+    padding: 10px 0 0 0px;
 }
 
-.happens-text{
+.happens-text {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
-    padding: 5px 0 0 247px;
+    padding: 5px 0 0 0;
     line-height: 38px;
 }
 
@@ -370,87 +361,87 @@ th, td{
 
 [class^="bi-"]::before,
 [class*=" bi-"]::before {
-  font-weight: bold;
-  font-size: 30px;
+    font-weight: bold;
+    font-size: 30px;
 }
 
-.book img{
-    width: 100%;
+.book img {
+    width: 85%;
     padding-top: 20px;
 }
 
-.process h1{
+.process h1 {
     text-align: left;
     font-size: 40px;
-    padding: 0px 0 33px 232px;
+    padding: 0px 0 33px 0;
 }
 
-.p-2{
+.p-2 {
     margin: 12px 15px 0 232px;
 }
 
-.photo-cus{
-width: 200px;
+.photo-cus {
+    width: 200px;
 }
 
-.pic{
+.pic {
     text-align: center;
-    padding: 0px 0px 0 125px;
 }
 
-.description{
-    font-family: 'Roboto';
-    font-size: 28px;
+.description {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
     line-height: 25px;
-    padding: 114px 0 0 0;
+    align-self: center;
 }
 
-.process-item{
+.process-item {
     margin-bottom: 23px;
 }
 
-.process{
-    
+.process {
     padding-bottom: 50px;
-
 }
 
-.up{
+.up {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     color: #fff;
     background: #000;
     border: 1px solid #fff;
-    margin: 0px 0 0 0;
+    margin: 0;
     padding: 11px 14px 11px 14px;
     text-align: center;
-    margin-left: 72px;
 }
 
-.up:hover{
+.up:hover {
     cursor: pointer;
     background: #fff;
     color: #000;
 }
 
-section{
+.btn-up {
+    margin-top: 35px;
+}
+
+section {
     margin-bottom: 30px;
 }
 
-i.bi.bi-chevron-up::before{
+i.bi.bi-chevron-up::before {
     font-size: 14px;
 }
 
-.footer{
+.footer {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     color: #fff;
     line-height: 22px;
-    margin: 60px 20px 40px 20px;
+    margin: 60px 0 40px 0;
 }
 
-.footer a{
+.footer a {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     color: #fff;
