@@ -47,6 +47,10 @@ header {
     margin: 0;
 }
 
+.phone {
+    margin-top: 7px;
+}
+
 .phone li {
     list-style-type: none;
 }
