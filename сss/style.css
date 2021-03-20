@@ -22,7 +22,7 @@ header {
 
 .head {
     background-color: #000;
-    margin: 41px 0px 0px 102px;
+    margin: 41px 0px 0px 0px;
 }
 
 .menu {
@@ -38,7 +38,7 @@ header {
 }
 
 .icon {
-    margin: 15px 100px 0px 100px;
+    margin: 20px 0px 0px 0px;
 }
 
 .icon ul li {
